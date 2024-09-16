@@ -2,18 +2,19 @@
 #include <cmath>
 
 int main() {
-    double a, n, m, x, k, d, y;
-    std::cout << "Enter n: " << std::endl;
-    std::cin >> n;
-    std::cout << "Enter m: " << std::endl;
-    std::cin >> m;
+    double a, c, s, x, k, d, y;
     std::cout << "Enter x: " << std::endl;
     std::cin >> x;
+    std::cout << "Enter y: " << std::endl;
+    std::cin >> y;
+    std::cout << "Enter c: " << std::endl;
+    std::cin >> c;
     std::cout << "Enter k: " << std::endl;
     std::cin >> k;
-    d = tan(x);
-    a = fabs(n + m);
-y = (1,29+ k/a + pow(d, 2));
+    a = x + y;
+    d = fabs(c - a);
+    
+s = (10,1 + a/c + d/pow(k, 2));
 std::cout << "Result: " << y;
     return 0;
 }
