@@ -2,20 +2,22 @@
 #include <cmath>
 
 int main() {
-    double n, x, p, b, k, d, c, q;
+    double a, y, x, z, b, k, d, c, t;
     std::cout << "Enter x: " << std::endl;
     std::cin >> x;
-    std::cout << "Enter p: " << std::endl;
-    std::cin >> p;
-    std::cout << "Enter n: " << std::endl;
-    std::cin >> n;
+    std::cout << "Enter y: " << std::endl;
+    std::cin >> y;
+    std::cout << "Enter z: " << std::endl;
+    std::cin >> z;
     std::cout << "Enter k: " << std::endl;
     std::cin >> k;
     std::cout << "Enter d: " << std::endl;
     std::cin >> d;
-    b = cos(x);
-    c = p - n;
-q = (pow(b, 2)/ (k * d) + b * pow(c, 3));
-std::cout << "Result: " << q;
+    std::cout << "Enter c: " << std::endl;
+    std::cin >> c;
+    b = sqrt(z);
+    a = x - y;
+t = (cos(x) + pow(a, 2) / (k - c * d) - b );
+std::cout << "Result: " << t;
     return 0;
 }
