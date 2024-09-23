@@ -11,8 +11,6 @@ int main() {
     std::cin >> h;
     std::cout << "Enter k: " << std::endl;
     std::cin >> k;
-    std::cout << "Enter k: " << std::endl;
-    std::cin >> k;
     std::cout << "Enter c: " << std::endl;
     std::cin >> c;
     std::cout << "Enter d: " << std::endl;
